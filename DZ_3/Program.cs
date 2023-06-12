@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using Microsoft.VisualBasic;
 
-int menu = 1;
+int menu = 1; // пока что без классов и тд, ведь мы их не проходили)
 do
 {
     Console.WriteLine("Выберите ДЗ " +
@@ -15,7 +15,7 @@ do
     string golos = Console.ReadLine();
     Console.WriteLine();
     string stroka1, stroka2, result;
-    int a = 0, b = 0, s = 0;
+    double a = 0, b = 0, s = 0;
 
     switch (golos)
     {
